@@ -627,7 +627,7 @@ p {
     width: 40px;
     height: 40px;
     border-radius: 40px;
-    background-image: url(/Users/rafaelfurlan/Documents/Codecademy/Portfolio/Resources/images/profile-picture.jpeg);
+    background-image: url(../images/portrait.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
