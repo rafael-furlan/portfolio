@@ -1,0 +1,749 @@
+/* All web site */
+
+@import url("style-guide.css");
+
+* {
+  font-family: var(--font-family);
+}
+
+body {
+  margin: 0;
+  background-color: var(--neutral-color-1);
+}
+
+h1 {
+  font-size: var(--desk-h1-size);
+  font-weight: var(--desk-h1-weight);
+  line-height: var(--desk-h1-line-height);
+}
+
+h2 {
+  font-size: var(--desktop-h2);
+  font-weight: var(--desktop-h2);
+  margin: var(--desktop-h2);
+}
+
+h3 {
+  font-size: var(--desktop-h3);
+  font-weight: var(--desktop-h3);
+  margin: var(--desktop-h3);
+}
+
+h4 {
+  font-size: var(--desktop-h4);
+  font-weight: var(--desktop-h4);
+  margin: var(--desktop-h4);
+}
+
+h5 {
+  font-size: var(--desktop-h5);
+  font-weight: var(--desktop-h5);
+  margin: var(--desktop-h5);
+}
+
+h6 {
+  font-size: var(--desktop-h6);
+  font-weight: var(--desktop-h6);
+  line-height: var(--desktop-h6);
+  margin: 0;
+}
+
+p {
+  font-size: var(--desktop-body);
+  font-weight: var(--desktop-body);
+  line-height: var(--desktop-body);
+}
+
+.column-4,
+.column-5,
+.column-6 {
+  display: none;
+}
+
+body {
+  background-color: var(--neutral-color-1);
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.top-bar {
+  background-color: var(--neutral-color-1);
+  backdrop-filter: blur(300px);
+  border-bottom: 1px solid var(--neutral-color-5);
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+}
+
+#left-corner {
+  min-width: 65px;
+  min-height: 65px;
+  border-right: 1px solid var(--neutral-color-5);
+  background-color: var(--neutral-color-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-image: url(/Users/rafaelfurlan/Documents/Codecademy/Portfolio/Resources/images/profile-picture.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.name {
+  display: flex;
+  width: 100%;
+  padding-left: 20px;
+  max-height: 100%;
+  align-content: center;
+  font-weight: 300;
+}
+
+#top-name {
+  height: 20px;
+  margin: auto 0;
+  align-content: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.desktop-nav {
+  display: flex; /* Use Flexbox to align items side by side */
+  align-items: center; /* Center items vertically */
+  height: 65px;
+}
+
+.nav-item {
+  display: flex; /* Aligns the anchor within the nav item */
+  align-items: center;
+  height: 100%;
+}
+
+.menu {
+  display: none;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: var(--neutral-color-8);
+  height: 100%;
+  padding: 0 20px; /* Horizontal padding inside each nav item */
+  display: flex; /* Aligns the anchor within the nav item */
+  align-items: center;
+}
+
+a:hover {
+  background-color: var(--neutral-color-2);
+}
+
+a:active {
+  background-color: var(--neutral-color-3);
+}
+
+/* Main body*/
+
+main {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+/* left-rail*/
+
+.left-rail {
+  background-color: var(--neutral-color-1);
+  border-right: 1px solid var(--neutral-color-5);
+  min-width: 65px;
+  max-width: 65px;
+  height: 100%;
+  padding-top: 65px;
+}
+
+.out-item {
+  align-items: center;
+  height: 65px;
+  width: 100%;
+}
+
+.out-item a {
+  color: black;
+  height: 100%;
+  padding: 0 20px; /* Horizontal padding inside each nav item */
+  display: flex; /* Aligns the anchor within the nav item */
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  fill: var(--neutral-color-8);
+}
+
+/* inner body*/
+
+.inner-body::-webkit-scrollbar {
+  display: none;
+}
+
+.inner-body {
+  width: 100vw;
+  overflow-y: scroll;
+  padding-bottom: 200px;
+  position: relative;
+}
+
+.breadcrumb {
+  max-width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: 40px;
+}
+
+.category {
+  padding: 0 20px;
+  font-weight: 100;
+  margin: 0;
+  max-height: 100%;
+}
+
+.project-name {
+  padding: 0 20px;
+  font-weight: 300;
+  margin: 0;
+  max-height: 100%;
+}
+
+.square-button {
+  color: black;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-header {
+  max-width: 100%;
+  background-color: var(--neutral-color-1);
+  padding: 165px 89px 125px 89px;
+  position: sticky;
+  top: 0px;
+}
+
+#headline {
+  max-width: 1000px;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+#top {
+  max-width: 600px;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.grid-body {
+  background-color: var(--neutral-color-1);
+  padding: 21px;
+  position: sticky;
+  top: 65px;
+  border-top: 1px solid var(--neutral-color-5);
+  border-bottom: 1px solid var(--neutral-color-5);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 400px) 1fr;
+  gap: 5px;
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas de tamanhos iguais */
+  grid-auto-rows: auto; /* Altura padrão para as linhas */
+  gap: 13px; /* Espaçamento entre os itens */
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 0;
+  height: auto;
+}
+
+.column-1,
+.column-2,
+.column-3 {
+  display: flex; /* Ativa o grid dentro das colunas */
+  flex-direction: column; /* Organiza os itens na vertical (coluna) */
+  gap: 21px; /* Espaçamento entre os itens */
+  height: 100%;
+}
+
+.grid-item-1,
+.grid-item-2,
+.grid-item-3,
+.grid-item-4,
+.grid-item-5,
+.grid-item-6,
+.grid-item-7,
+.grid-item-8,
+.grid-item-9 {
+  border-radius: 2px;
+}
+
+.grid-item-1 {
+  width: 100%;
+  aspect-ratio: 1;
+  background-color: #ced0c8;
+  background-image: url(/Users/rafaelfurlan/Documents/Codecademy/Portfolio/Resources/images/project-placeholders/img-1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-item-2 {
+  width: 100%;
+  aspect-ratio: 4/5;
+  background-color: #ced0c8;
+  background-image: url(/Users/rafaelfurlan/Documents/Codecademy/Portfolio/Resources/images/project-placeholders/img-2.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-item-3 {
+  width: 100%;
+  aspect-ratio: 1;
+  background-color: #ced0c8;
+  background-image: url(/Users/rafaelfurlan/Documents/Codecademy/Portfolio/Resources/images/project-placeholders/img-3.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-item-4 {
+  width: 100%;
+  aspect-ratio: 1;
+  background-color: #ced0c8;
+  background-image: url(/Users/rafaelfurlan/Documents/Codecademy/Portfolio/Resources/images/project-placeholders/img-4.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-item-5 {
+  width: 100%;
+  aspect-ratio: 4/5;
+  background-color: #ced0c8;
+  background-image: url(/Users/rafaelfurlan/Documents/Codecademy/Portfolio/Resources/images/project-placeholders/img-5.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-item-6 {
+  width: 100%;
+  aspect-ratio: 9/16;
+  background-color: #ced0c8;
+  background-image: url(/Users/rafaelfurlan/Documents/Codecademy/Portfolio/Resources/images/project-placeholders/img-6.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-item-7 {
+  width: 100%;
+  aspect-ratio: 9/16;
+  background-color: #ced0c8;
+  background-image: url(/Users/rafaelfurlan/Documents/Codecademy/Portfolio/Resources/images/project-placeholders/img-7.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-item-8 {
+  width: 100%;
+  aspect-ratio: 1;
+  background-color: #ced0c8;
+  background-image: url(/Users/rafaelfurlan/Documents/Codecademy/Portfolio/Resources/images/project-placeholders/img-8.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-item-9 {
+  width: 100%;
+  aspect-ratio: 1;
+  background-color: #ced0c8;
+  background-image: url(/Users/rafaelfurlan/Documents/Codecademy/Portfolio/Resources/images/project-placeholders/img-9.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.thumbnail {
+  position: relative;
+  display: flex; /* Enables Flexbox */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  overflow: hidden;
+}
+
+.thumbnail img {
+  display: block;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Overlay styling */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(60, 56, 66, 0.3); /* Glass effect base */
+  backdrop-filter: blur(25px); /* Blur effect for glass */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.thumbnail:hover .overlay {
+  opacity: 1;
+}
+
+.overlay p {
+  color: #fff; /* White text */
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Case study structure below */
+.case-header {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+
+.img-header {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.title-container {
+  width: 100%;
+  margin: 100px 0 40px 0;
+}
+
+.case-category {
+  margin-bottom: 15px;
+  margin-left: 3px;
+}
+
+.case-body {
+  width: 100%;
+  margin: 0 0 100px 0;
+}
+
+.h-body {
+  padding-bottom: 20px;
+  width: 100%;
+  margin: 0;
+}
+
+.p-body {
+  display: flex;
+  width: 100%;
+  margin: 0 0 80px 0;
+}
+
+.col-1 {
+  margin: 0;
+  padding-right: 10px;
+}
+
+.col-2 {
+  margin: 0;
+  padding-left: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+/* breackpoints */
+
+@media (max-width: 630px) {
+  h1 {
+    font-size: var(--mobile-h1-size);
+    font-weight: var(--desk-h1-weight);
+    line-height: var(--desk-h1-line-height);
+  }
+
+  h2 {
+    font-size: var(--mobile-h2-size);
+    font-weight: var(--desktop-h2);
+    margin: var(--desktop-h2);
+  }
+
+  h3 {
+    font-size: var(--mobile-h3-size);
+    font-weight: var(--desktop-h3);
+    margin: var(--desktop-h3);
+  }
+
+  h4 {
+    font-size: var(--mobile-h4-size);
+    font-weight: var(--desktop-h4);
+    margin: var(--desktop-h4);
+  }
+
+  h5 {
+    font-size: var(--desktop-h5);
+    font-weight: var(--desktop-h5);
+    margin: var(--desktop-h5);
+  }
+
+  h6 {
+    font-size: var(--mobile-h6-size);
+    font-weight: var(--desktop-h6);
+    line-height: var(--desktop-h6);
+    margin: 0;
+  }
+
+  p {
+    font-size: var(--desktop-body-siz);
+    font-weight: var(--desktop-body);
+    line-height: var(--desktop-body);
+  }
+
+  .left-rail {
+    display: none;
+    border-right: 1px solid #ced0c8;
+    min-width: 65px;
+    max-width: 65px;
+    height: 100%;
+  }
+
+  .nav-item {
+    display: none !important;
+  }
+
+  .menu {
+    display: flex; /* Aligns the anchor within the nav item */
+    align-items: center;
+    height: 100%;
+  }
+
+  .menu a {
+    display: none;
+    text-decoration: none;
+    color: var(--neutral-color-8);
+    height: 100%;
+    padding: 0 20px; /* Horizontal padding inside each nav item */
+    display: flex; /* Aligns the anchor within the nav item */
+    align-items: center;
+  }
+
+  .inner-body {
+    width: 100vw !important;
+    overflow-y: scroll;
+    padding-bottom: 100px;
+  }
+
+  .inner-header {
+    max-width: 100%;
+    background-color: var(--neutral-color-1);
+    padding: 100px 42px 65px 42px;
+    position: sticky;
+    top: 0px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* 3 colunas de tamanhos iguais */
+    grid-auto-rows: auto; /* Altura padrão para as linhas */
+    gap: 13px; /* Espaçamento entre os itens */
+    max-width: 100%;
+    box-sizing: border-box;
+    height: auto;
+  }
+
+  .column-1,
+  .column-2,
+  .column-3,
+  .column-4,
+  .column-5 {
+    display: none;
+  }
+
+  .column-6 {
+    background-color: rgb(255, 255, 255, 0%);
+    display: flex; /* Ativa o grid dentro das colunas */
+    flex-direction: column; /* Organiza os itens na vertical (coluna) */
+    gap: 21px; /* Espaçamento entre os itens */
+    height: 100%;
+  }
+}
+
+@media (min-width: 631px) and (max-width: 1279px) {
+  body {
+    background-color: var(--neutral-color-1);
+  }
+
+  .top-bar {
+    background-color: var(--neutral-color-1);
+    backdrop-filter: blur(300px);
+    border-bottom: 1px solid var(--neutral-color-5);
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+  }
+
+  #left-corner {
+    min-width: 65px;
+    min-height: 65px;
+    border-right: 1px solid var(--neutral-color-5);
+    background-color: var(--neutral-color-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-image: url(/Users/rafaelfurlan/Documents/Codecademy/Portfolio/Resources/images/profile-picture.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .name {
+    display: flex;
+    width: 100%;
+    padding-left: 20px;
+    max-height: 100%;
+    align-content: center;
+    font-weight: 300;
+  }
+
+  #top-name {
+    height: 20px;
+    margin: auto 0;
+    align-content: center;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .desktop-nav {
+    display: flex; /* Use Flexbox to align items side by side */
+    align-items: center; /* Center items vertically */
+    height: 65px;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .nav-item {
+    display: flex; /* Aligns the anchor within the nav item */
+    align-items: center;
+    height: 100%;
+  }
+
+  .nav-item a {
+    text-decoration: none;
+    color: var(--neutral-color-8);
+    height: 100%;
+    padding: 0 20px; /* Horizontal padding inside each nav item */
+    display: flex; /* Aligns the anchor within the nav item */
+    align-items: center;
+  }
+
+  a:hover {
+    background-color: var(--neutral-color-2);
+  }
+
+  a:active {
+    background-color: var(--neutral-color-3);
+  }
+
+  /* left-rail*/
+
+  .left-rail {
+    background-color: var(--neutral-color-1);
+    border-right: 1px solid var(--neutral-color-5);
+    min-width: 65px;
+    max-width: 65px;
+    height: 100%;
+    margin-top: 65px;
+  }
+
+  .out-item {
+    align-items: center;
+    height: 65px;
+    width: 100%;
+  }
+
+  .out-item a {
+    color: black;
+    height: 100%;
+    padding: 0 20px; /* Horizontal padding inside each nav item */
+    display: flex; /* Aligns the anchor within the nav item */
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon {
+    fill: var(--neutral-color-8);
+  }
+
+  .column-1,
+  .column-2,
+  .column-3 {
+    display: none;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3 colunas de tamanhos iguais */
+    grid-auto-rows: auto; /* Altura padrão para as linhas */
+    gap: 13px; /* Espaçamento entre os itens */
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+    height: auto;
+  }
+
+  .column-4,
+  .column-5 {
+    background-color: rgba(12, 35, 137, 0);
+    display: flex; /* Ativa o grid dentro das colunas */
+    flex-direction: column; /* Organiza os itens na vertical (coluna) */
+    gap: 21px; /* Espaçamento entre os itens */
+    height: 100%;
+  }
+}
+
+@media (min-width: 1921px) {
+  .column-4,
+  .column-5,
+  .column-6 {
+    display: none;
+  }
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seções Sobrepostas</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      /* Wrapper pai */
+      .wrapper {
+        height: 400vh; /* Altura para permitir que todas as seções rolem */
+      }
+
+      /* Estilo comum para todas as seções */
+      .section {
+        height: 50vh; /* Cada seção ocupa 100% da viewport */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        font-weight: bold;
+        color: white;
+        position: sticky;
+      }
+
+      .section:nth-child(odd) {
+        background-color: lightcoral;
+      }
+
+      .section:nth-child(even) {
+        background-color: lightblue;
+      }
+
+      /* Defina a posição sticky com os valores corretos */
+      .section-1 {
+        background-color: darkorange;
+        top: 0;
+      }
+
+      .section-2 {
+        background-color: darkblue;
+        top: 200px;
+      }
+
+      .section-3 {
+        background-color: darkgreen;
+        top: 300px;
+      }
+
+      .section-4 {
+        height: 1500px;
+        background-color: darkred;
+        top: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="section section-1">Seção 1</div>
+      <div class="section section-2">Seção 2</div>
+      <div class="section section-3">Seção 3</div>
+      <div class="section section-4">Seção 4</div>
+    </div>
+  </body>
+</html>
