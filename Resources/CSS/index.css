@@ -564,7 +564,7 @@ p {
   .inner-header {
     max-width: 100%;
     background-color: var(--neutral-color-1);
-    padding: 100px 42px 65px 42px;
+    padding: 100px 24px 65px 24px;
     position: sticky;
     top: 0px;
   }
