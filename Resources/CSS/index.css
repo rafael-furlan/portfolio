@@ -746,4 +746,8 @@ p {
   .column-6 {
     display: none;
   }
+
+  #menu {
+    display: none;
+  }
 }
