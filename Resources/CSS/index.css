@@ -540,7 +540,7 @@ p {
   }
 
   .menu {
-    display: flex; /* Aligns the anchor within the nav item */
+    display: flex;
     align-items: center;
     height: 100%;
   }
