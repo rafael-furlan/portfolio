@@ -685,14 +685,7 @@ p {
 
   /* left-rail*/
 
-  .left-rail {
-    background-color: var(--neutral-color-1);
-    border-right: 1px solid var(--neutral-color-5);
-    min-width: 65px;
-    max-width: 65px;
-    height: 100%;
-    margin-top: 65px;
-  }
+  
 
   .out-item {
     align-items: center;
