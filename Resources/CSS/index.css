@@ -201,6 +201,7 @@ main {
   overflow-y: scroll;
   padding-bottom: 200px;
   position: relative;
+  overflow-x: hidden;
 }
 
 .breadcrumb {
@@ -237,8 +238,8 @@ main {
   max-width: 100%;
   background-color: var(--neutral-color-1);
   padding: 165px 89px 125px 89px;
-  position: sticky;
   top: 0px;
+  overflow-x: hidden;
 }
 
 #headline {
@@ -253,29 +254,28 @@ main {
   line-height: 1.4;
 }
 
-.grid-body {
-  background-color: var(--neutral-color-1);
-  padding: 21px;
-  position: sticky;
-  top: 65px;
-  border-top: 1px solid var(--neutral-color-5);
-  border-bottom: 1px solid var(--neutral-color-5);
-}
-
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 400px) 1fr;
-  gap: 5px;
-  width: 100%;
+  gap: 15px;
+  background-color: var(--neutral-color-1);
+  padding: 21px;
+  position: sticky;
+  top: 65px;
+  max-width: 100%;
+  border-top: 1px solid var(--neutral-color-5);
+  border-bottom: 1px solid var(--neutral-color-5);
 }
+  
+
 
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 colunas de tamanhos iguais */
   grid-auto-rows: auto; /* Altura padrão para as linhas */
   gap: 13px; /* Espaçamento entre os itens */
-  max-width: 100%;
+  width: 100%;
   box-sizing: border-box;
   margin-bottom: 0;
   height: auto;
@@ -305,17 +305,17 @@ main {
 .grid-item-1 {
   width: 100%;
   aspect-ratio: 1;
-  background-color: #ced0c8;
-  background-image: url(../images/project-placeholders/img-1.png);
+  background-color: #b1e80a;
+  background-image: url();
   background-size: cover;
   background-position: center;
 }
 
 .grid-item-2 {
   width: 100%;
-  aspect-ratio: 4/5;
-  background-color: #ced0c8;
-  background-image: url(../images/project-placeholders/img-2.png);
+  aspect-ratio: 1;
+  background-color: #122ea9;
+  background-image: url();
   background-size: cover;
   background-position: center;
 }
@@ -323,8 +323,8 @@ main {
 .grid-item-3 {
   width: 100%;
   aspect-ratio: 1;
-  background-color: #ced0c8;
-  background-image: url(../images/project-placeholders/img-3.png);
+  background-color: #8921af;
+  background-image: url();
   background-size: cover;
   background-position: center;
 }
@@ -332,35 +332,35 @@ main {
 .grid-item-4 {
   width: 100%;
   aspect-ratio: 1;
-  background-color: #ced0c8;
-  background-image: url(../images/project-placeholders/img-4.png);
+  background-color: #bb7f2b;
+  background-image: url();
   background-size: cover;
   background-position: center;
 }
 
 .grid-item-5 {
   width: 100%;
-  aspect-ratio: 4/5;
-  background-color: #ced0c8;
-  background-image: url(../images/project-placeholders/img-5.png);
+  aspect-ratio: 1;
+  background-color: #9b0a29;
+  background-image: url();
   background-size: cover;
   background-position: center;
 }
 
 .grid-item-6 {
   width: 100%;
-  aspect-ratio: 9/16;
-  background-color: #ced0c8;
-  background-image: url(../images/project-placeholders/img-6.png);
+  aspect-ratio: 1;
+  background-color: #2b2ba7;
+  background-image: url();
   background-size: cover;
   background-position: center;
 }
 
 .grid-item-7 {
   width: 100%;
-  aspect-ratio: 9/16;
+  aspect-ratio: 1;
   background-color: #ced0c8;
-  background-image: url(../images/project-placeholders/img-7.png);
+  background-image: url();
   background-size: cover;
   background-position: center;
 }
@@ -369,7 +369,7 @@ main {
   width: 100%;
   aspect-ratio: 1;
   background-color: #ced0c8;
-  background-image: url(../images/project-placeholders/img-8.png);
+  background-image: url();
   background-size: cover;
   background-position: center;
 }
@@ -378,7 +378,7 @@ main {
   width: 100%;
   aspect-ratio: 1;
   background-color: #ced0c8;
-  background-image: url(../images/project-placeholders/img-9.png);
+  background-image: url();
   background-size: cover;
   background-position: center;
 }
@@ -593,6 +593,7 @@ p {
     flex-direction: column; /* Organiza os itens na vertical (coluna) */
     gap: 21px; /* Espaçamento entre os itens */
     height: 100%;
+    width: 100%;
   }
 }
 
@@ -712,7 +713,7 @@ p {
     display: none;
   }
 
-  .grid {
+  .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 3 colunas de tamanhos iguais */
     grid-auto-rows: auto; /* Altura padrão para as linhas */
@@ -734,11 +735,20 @@ p {
 }
 
 @media (min-width: 1921px) {
+
+  .grid-container {
+    gap: 13px; /* Espaçamento entre os itens */
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+    height: auto;
+  }
   .column-4,
   .column-5,
   .column-6 {
     display: none;
   }
+
 
   #menu {
     display: none;
