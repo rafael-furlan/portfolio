@@ -306,7 +306,7 @@ main {
   width: 100%;
   aspect-ratio: 1;
   background-color: #ced0c8;
-  background-image: url(/Users/rafaelfurlan/Documents/Codecademy/Portfolio/Resources/images/project-placeholders/img-1.png);
+  background-image: url(../images/project-placeholders/img-1.png);
   background-size: cover;
   background-position: center;
 }
@@ -315,7 +315,7 @@ main {
   width: 100%;
   aspect-ratio: 4/5;
   background-color: #ced0c8;
-  background-image: url(/Users/rafaelfurlan/Documents/Codecademy/Portfolio/Resources/images/project-placeholders/img-2.png);
+  background-image: url(../images/project-placeholders/img-2.png);
   background-size: cover;
   background-position: center;
 }
@@ -324,7 +324,7 @@ main {
   width: 100%;
   aspect-ratio: 1;
   background-color: #ced0c8;
-  background-image: url(/Users/rafaelfurlan/Documents/Codecademy/Portfolio/Resources/images/project-placeholders/img-3.png);
+  background-image: url(../images/project-placeholders/img-3.png);
   background-size: cover;
   background-position: center;
 }
@@ -333,7 +333,7 @@ main {
   width: 100%;
   aspect-ratio: 1;
   background-color: #ced0c8;
-  background-image: url(/Users/rafaelfurlan/Documents/Codecademy/Portfolio/Resources/images/project-placeholders/img-4.png);
+  background-image: url(../images/project-placeholders/img-4.png);
   background-size: cover;
   background-position: center;
 }
@@ -342,7 +342,7 @@ main {
   width: 100%;
   aspect-ratio: 4/5;
   background-color: #ced0c8;
-  background-image: url(/Users/rafaelfurlan/Documents/Codecademy/Portfolio/Resources/images/project-placeholders/img-5.png);
+  background-image: url(../images/project-placeholders/img-5.png);
   background-size: cover;
   background-position: center;
 }
@@ -351,7 +351,7 @@ main {
   width: 100%;
   aspect-ratio: 9/16;
   background-color: #ced0c8;
-  background-image: url(/Users/rafaelfurlan/Documents/Codecademy/Portfolio/Resources/images/project-placeholders/img-6.png);
+  background-image: url(../images/project-placeholders/img-6.png);
   background-size: cover;
   background-position: center;
 }
@@ -360,7 +360,7 @@ main {
   width: 100%;
   aspect-ratio: 9/16;
   background-color: #ced0c8;
-  background-image: url(/Users/rafaelfurlan/Documents/Codecademy/Portfolio/Resources/images/project-placeholders/img-7.png);
+  background-image: url(../images/project-placeholders/img-7.png);
   background-size: cover;
   background-position: center;
 }
@@ -369,7 +369,7 @@ main {
   width: 100%;
   aspect-ratio: 1;
   background-color: #ced0c8;
-  background-image: url(/Users/rafaelfurlan/Documents/Codecademy/Portfolio/Resources/images/project-placeholders/img-8.png);
+  background-image: url(../images/project-placeholders/img-8.png);
   background-size: cover;
   background-position: center;
 }
@@ -378,7 +378,7 @@ main {
   width: 100%;
   aspect-ratio: 1;
   background-color: #ced0c8;
-  background-image: url(/Users/rafaelfurlan/Documents/Codecademy/Portfolio/Resources/images/project-placeholders/img-9.png);
+  background-image: url(../images/project-placeholders/img-9.png);
   background-size: cover;
   background-position: center;
 }
