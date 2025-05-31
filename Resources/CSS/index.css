@@ -265,6 +265,8 @@ main {
   height: 100%;
 }
 
+/* Grid thumbnails */
+
 .grid-item-1,
 .grid-item-2,
 .grid-item-3,
@@ -280,44 +282,42 @@ main {
 .grid-item-1 {
   width: 100%;
   aspect-ratio: 1;
-  background-color: #b1e80a;
-  background-image: url();
+  background-image: url(../images/project-placeholders/img-1.png);
   background-size: cover;
   background-position: center;
 }
 
 .grid-item-2 {
   width: 100%;
-  aspect-ratio: 1;
-  background-color: #122ea9;
-  background-image: url();
+  aspect-ratio: 4/5;
+  background-image: url(../images/project-placeholders/img-2.png);
   background-size: cover;
   background-position: center;
 }
 
 .grid-item-3 {
   width: 100%;
-  aspect-ratio: 1;
+  aspect-ratio: 9/16;
   background-color: #8921af;
-  background-image: url();
+  background-image: url(../images/project-placeholders/img-7.png);
   background-size: cover;
   background-position: center;
 }
 
 .grid-item-4 {
   width: 100%;
-  aspect-ratio: 1;
+  aspect-ratio: 9/16;
   background-color: #bb7f2b;
-  background-image: url();
+  background-image: url(../images/project-placeholders/img-6.png);
   background-size: cover;
   background-position: center;
 }
 
 .grid-item-5 {
   width: 100%;
-  aspect-ratio: 1;
+  aspect-ratio: 4/5;
   background-color: #9b0a29;
-  background-image: url();
+  background-image: url(../images/project-placeholders/img-5.png);
   background-size: cover;
   background-position: center;
 }
@@ -326,7 +326,7 @@ main {
   width: 100%;
   aspect-ratio: 1;
   background-color: #2b2ba7;
-  background-image: url();
+  background-image: url(../images/project-placeholders/img-4.png);
   background-size: cover;
   background-position: center;
 }
@@ -335,7 +335,7 @@ main {
   width: 100%;
   aspect-ratio: 1;
   background-color: #ced0c8;
-  background-image: url();
+  background-image: url(../images/project-placeholders/img-9.png);
   background-size: cover;
   background-position: center;
 }
@@ -344,7 +344,7 @@ main {
   width: 100%;
   aspect-ratio: 1;
   background-color: #ced0c8;
-  background-image: url();
+  background-image: url(../images/project-placeholders/img-8.png);
   background-size: cover;
   background-position: center;
 }
@@ -353,7 +353,7 @@ main {
   width: 100%;
   aspect-ratio: 1;
   background-color: #ced0c8;
-  background-image: url();
+  background-image: url(../images/project-placeholders/img-3.png);
   background-size: cover;
   background-position: center;
 }
