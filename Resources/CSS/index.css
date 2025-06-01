@@ -702,7 +702,7 @@ p {
   flex-direction: column;
   max-width: 100%;
   background-color: var(--neutral-color-1);
-  padding: 115px 55px 125px 55px;
+  padding: 89px 21px 34px;
   gap: 5px;
   overflow-x: hidden;
   border-bottom: 1px solid var(--neutral-color-5);
@@ -711,6 +711,66 @@ p {
 .project-headline {
   margin: 0px;
 }
+
+.text-container{
+  width: 100%;
+}
+
+.section-type-1   {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 21px;
+  gap: 21px;
+}
+
+.section-type-1 .image-container{
+  width: 100%;
+}
+
+.section-type-2   {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 21px;
+  gap: 21px;
+}
+
+.section-type-2 .image-container{
+  width: 100%;
+}
+
+.section-type-3   {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 21px;
+  gap: 21px;
+}
+
+.section-type-3 .image-container{
+  width: 100%;
+}
+
+.section-type-4   {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 21px;
+  gap: 21px;
+}
+
+.section-type-4 .image-container{
+  width: 100%;
+}
+
+.section-type-5   {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 21px;
+  gap: 21px;
+}
+
+.section-type-5 .image-container{
+  width: 100%;
+}
+
 
 }
 
