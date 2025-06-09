@@ -638,10 +638,11 @@ p {
     display: flex;
     align-items: center;
     height: 100%;
+
   }
 
+
   .menu a {
-    display: none;
     text-decoration: none;
     color: var(--neutral-color-8);
     height: 100%;
