@@ -178,7 +178,7 @@ main {
 }
 
 .out-item a {
-  color: black;
+  color: var(--neutral-color-8);
   height: 100%;
   padding: 0 20px; /* Horizontal padding inside each nav item */
   display: flex; /* Aligns the anchor within the nav item */
@@ -771,6 +771,114 @@ p {
 .section-type-5 .image-container{
   width: 100%;
 }
+
+/* Mobile menu overlay */
+
+.menu-body{
+  height: 100dvh;
+  width: 100vw;
+  background-color: var(--neutral-color-1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding-bottom: env(safe-area-inset-bottom, 20px);
+}
+
+.menu-top-bar{
+  background-color: var(--neutral-color-1);
+  backdrop-filter: blur(300px);
+  border-bottom: 1px solid var(--neutral-color-5);
+  height: 65px;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  width: 100vw;
+  z-index: 1001;
+}
+
+.close-menu{
+  display: flex; 
+  align-items: center;
+  height: 100%;
+}
+
+.close-menu a{
+  text-decoration: none;
+  color: var(--neutral-color-8);
+  height: 100%;
+  padding: 0 20px; 
+  display: flex; 
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu-list{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+   align-items: left;
+  padding-top: 65px;
+}
+
+.list-item-1  {
+  padding:34px;
+  border-bottom: 1px solid var(--neutral-color-5);
+  width:100vw;
+}
+
+.list-item-1 h2 {
+  color: var(--neutral-color-8); font-size: 2rem;
+}
+
+.list-item-2 {
+  padding:34px;
+  border-bottom: 1px solid var(--neutral-color-5);
+  width:100vw;
+}
+
+.list-item-2 h2 {
+  color: var(--neutral-color-8); font-size: 2rem;
+}
+
+.list-item-3 {
+  padding:34px;
+  border-bottom: 1px solid var(--neutral-color-5);
+  width:100vw;
+}
+
+.list-item-3 h2 {
+  color: var(--neutral-color-8); 
+  font-size: 2rem;
+}
+
+.menu-footer{
+  padding: 20px;
+  display: flex;
+  max-width:100%;
+  justify-content: center;
+}
+
+.menu-footer nav {
+  width:100%;
+  display: flex;
+  justify-content: left;
+}
+
+.out-item {
+  flex: 1;
+  align-items: center;
+  width: 33%
+}
+
+.out-item a{
+  display: flex; justify-content: center;
+}
+
 
 
 }
