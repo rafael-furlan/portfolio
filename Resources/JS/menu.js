@@ -10,7 +10,7 @@ function OpenMenu() {
         <div class="menu-list">
             <div class="list-item-1">
                 <a href="https://rafaelfurlan.vercel.app/">
-                    <h2>SWork</h2>
+                    <h2>Work</h2>
                 </a>
             </div>
             <div class="list-item-2">
