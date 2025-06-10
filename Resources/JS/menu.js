@@ -1,7 +1,7 @@
 function OpenMenu() {
     const menuHTML = `
     <div class="menu-body" style="
-        height: 100vh;
+        height: 100dvh;
         width: 100vw;
         background-color: var(--neutral-color-1);
         display: flex;
