@@ -11,6 +11,7 @@ function OpenMenu() {
         top: 0;
         left: 0;
         z-index: 1000;
+        padding-bottom: env(safe-area-inset-bottom, 20px);
     ">
         <header class="menu-top-bar" style="
             background-color: var(--neutral-color-1);
