@@ -46,7 +46,6 @@ function OpenMenu() {
     </div>
     `;
     
-    // IMPORTANTE: Esta linha estava faltando!
     document.body.insertAdjacentHTML('beforeend', menuHTML);
 }
 

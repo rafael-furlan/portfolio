@@ -21,7 +21,6 @@ h2 {
   font-size: var(--desk-h2-size);
   font-weight: var(--desk-h2-weight);
   line-height: var(--desk-h2-line-height);
-  color: red; 
   margin: 0;
 }
 
@@ -58,7 +57,6 @@ p {
   font-weight: var(--desktop-body);
   line-height: var(--desktop-body);
   margin: 0;
-  color:green; 
 }
 
 .column-4,
@@ -799,14 +797,23 @@ main {
   width:100vw;
 }
 
+.list-item-1 a {
+  text-decoration: none;
+}
+
 .list-item-1 h2 {
   color: var(--neutral-color-8); 
+  text-decoration: none;
 }
 
 .list-item-2 {
   padding:34px;
   border-bottom: 1px solid var(--neutral-color-5);
   width:100vw;
+}
+
+.list-item-2 a {
+  text-decoration: none;
 }
 
 .list-item-2 h2 {
@@ -817,6 +824,10 @@ main {
   padding:34px;
   border-bottom: 1px solid var(--neutral-color-5);
   width:100vw;
+}
+
+.list-item-3 a {
+  text-decoration: none;
 }
 
 .list-item-3 h2 {
